@@ -1,6 +1,6 @@
-## aa
+## Data Analysis with Athena
 
-### ;lsdakfj
+### Creating Athena
 
 Now we can use Athena to make our first queries on the data. To do that, search for "Athena" in the search box. You will see the table that Crawler has created in the "Tables" menu, click on the three dots on the side and select "Preview table". Before using Athena, it asks you to provide the outpout location for the queried data. To do that, select the "Settings" tab and click on "Manage". In the "Manage settings" section, we can insert the bucket we want Athena to store its queries. It's better to not create a new bucket just for that, instead, we just create a folder inside the bucket that we created for this project. To do that, open a new AWS, go to S3, and create an "athena-queries" folder for the queries. After creating the folder, head back to Athena and select the folder that you just created. Click "Save".
 
